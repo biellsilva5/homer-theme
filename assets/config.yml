@@ -42,24 +42,31 @@ colors:
     background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "//GitHub"
-    icon: "fas fa-github"
+  - name: "Server"
+    icon: "fas fa-server"
     items:
-      - name: "Homer Theme"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
-        subtitle: "The official Homer Theme github!"
-        tag: "github"
+      - name: "Portainer"
+        logo: "assets/tools/portainer.png" # Change github.png to the name of your own custom icon!
+        subtitle: "Gerenciador de container!"
+        tag: "portainer"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "https://github.com/WalkxCode/Homer-Theme"
+        url: "http://portainer.cloud.arpa"
         target: "_blank"
 
-  - name: "//Reddit"
-    icon: "fas fa-reddit"
+  - name: "Network"
+    icon: "fas fa-network-wired"
     items:
-      - name: "The original reddit post!"
-        logo: "assets/tools/reddit.png"
-        subtitle: "Yes... this is Homer."
-        tag: "reddit"
+      - name: "PiHole"
+        logo: "assets/tools/pihole.png"
+        subtitle: "Gerenciador de DNS"
+        tag: "pihole"
         tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
+        url: "http:/pihole.cloud.arpa"
+        target: "_blank"
+      - name: "Nginx Proxy Manager"
+        logo: "assets/tools/nginx-proxy-manager.png"
+        subtitle: "Gerenciador de Proxy"
+        tag: "nginx-proxy-manager"
+        tagstyle: "is-info"
+        url: "http:/cloud.arpa:81"
         target: "_blank"
